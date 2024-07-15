@@ -32,7 +32,7 @@ function limpiarCaja() {
 }
 
 function generarNumeroSecreto(){
-    let numeroGenerado = Math.floor((Math.random()*numeroMaximo)+1);
+    let numeroGenerado =  Math.floor(Math.random()*numeroMaximo)+1;
     if (listaNumerosSorteados.length == numeroMaximo){
         asignarTextoElemento('p','Ya se sortearon todos los numeros posibles.');
     } else {
